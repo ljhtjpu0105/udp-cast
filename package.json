@@ -1,0 +1,26 @@
+{
+  "name": "udp-cast",
+  "version": "1.0.0",
+  "description": "纯净的 UDP 收发库（单播/广播 + 接收），平台适配器解耦，内置微信小程序适配器",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "miniprogram": "dist",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "udp",
+    "wechat",
+    "miniprogram",
+    "socket",
+    "cast",
+    "provision"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
